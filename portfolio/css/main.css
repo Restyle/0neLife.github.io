@@ -1217,7 +1217,7 @@ color: #FFFFF0;
 #portfolio .download-more:hover i{
 	bottom: -90%;
 }
-/*#portfolio .portfolio-list {
+#portfolio .portfolio-list {
 	height: 225px;
 	background-color: #273238;
 	
@@ -1240,7 +1240,7 @@ color: #FFFFF0;
 	transform: scale(0.9);
 }
 #portfolio .portfolio-list h5:before,
- #portfolio .portfolio-list h6:before{
+#portfolio .portfolio-list h6:before{
 	position: absolute;
 	content: "\201C";
 	font-size: 40px;
@@ -1298,4 +1298,4 @@ color: #FFFFF0;
 }
 #portfolio .portfolio-list .main-btn-rect:hover i {
 	right: -100%;
-}*/
+}
