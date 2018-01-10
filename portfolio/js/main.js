@@ -93,4 +93,34 @@ $(document).ready(function(){
 	  progressFillGradient: ['#2cbc99', '#fcbf02'],
 	  progressWidth: 3
 	});
+
+$('.js-btn-list, .js-btn-grid').on('click', function() {
+        $('.js-btn-grid, .js-btn-list').removeClass('active');
+        if ($(this).hasClass("js-btn-grid")) {
+            $(".portfolio-card").removeClass("grid");
+            $(".portfolio-list").addClass("list");
+            localStorage['portfolio_view'] = "list";
+        } else {
+            $(".portfolio-card").addClass("grid");
+            $(".portfolio-list").removeClass("list");
+            localStorage['portfolio_view'] = "grid";
+        }
+        $(this).addClass('active');
+    });
+
 });
+
+// $('.js_btn_list, .js_btn_grid').on('click', function() {
+//         $('.js_btn_list, .js_btn_grid').removeClass('active');
+//         if ($(this).hasClass("js_btn_grid")) {
+//             $(".js_portfolio_list").removeClass("list");
+//             $(".js_portfolio_list").addClass("grid");
+//             localStorage['portfolio_view'] = "grid";
+//         } else {
+//             $(".js_portfolio_list").addClass("list");
+//             $(".js_portfolio_list").removeClass("grid");
+//             localStorage['portfolio_view'] = "list";
+//         }
+//         $(this).addClass('active');
+//     });
+// 	
