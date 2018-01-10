@@ -1230,6 +1230,14 @@ color: #FFFFF0;
 	padding: 3px;
 	left: 30px;
 	top: 48px;
+	-webkit-transition: transform .5s ease-in;
+	-moz-transition: transform .5s ease-in;
+	-ms-transition: transform .5s ease-in;
+	-o-transition: transform .5s ease-in;
+	transition: transform .5s ease-in;
+}
+#portfolio .portfolio-list:hover img{
+	transform: scale(0.9);
 }
 #portfolio .portfolio-list h5:before,
  #portfolio .portfolio-list h6:before{
