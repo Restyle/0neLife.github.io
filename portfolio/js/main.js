@@ -98,21 +98,10 @@ $('.icon-menu li').on('click', function() {
   $('.icon-menu li').removeClass('active disable-click');
   // var newClass = $(this).addClass('active disable-click').data('switcher');
   // $(this).parents('section').attr('class','').addClass(newClass);
-
-
-  $(this).addClass('active disable-click').parents('section').attr('class','').addClass($(this).data('switcher'));
-
-
-        // if ($(this).hasClass("js-btn-grid")) {
-        //     $(".portfolio-card").removeClass("grid");
-        //     $(".portfolio-list").addClass("list");
-        //     localStorage['portfolio_view'] = "list";
-        // } else {
-        //     $(".portfolio-card").addClass("grid");
-        //     $(".portfolio-list").removeClass("list");
-        //     localStorage['portfolio_view'] = "grid";
-        // }
-        // $(this).addClass('active');
+  $(this).addClass('active disable-click')
+	  .parents('section')
+	  .attr('class','')
+	  .addClass($(this).data('switcher'));
     });
 
 });

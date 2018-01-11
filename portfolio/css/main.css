@@ -1150,6 +1150,9 @@ color: #FFFFF0;
 	height: 290px;
 	background-color: #273238;
 	padding: 3px 3px 0px 3px;
+	-webkit-transition: all .5s;
+	-o-transition: all .5s;
+	transition: all .5s;
 }
 #portfolio.grid .portfolio-card a{
 	overflow: hidden;
@@ -1234,6 +1237,9 @@ color: #FFFFF0;
 	background-color: #273238;
 	margin-bottom: 5px;
 	width: 100%;
+	-webkit-transition: width 0.5s;
+	-o-transition: width 0.5s;
+	transition: width 0.5s;
 }
 #portfolio.list .col-sm-4 .portfolio-card{
 	height: 260px;
@@ -1283,7 +1289,7 @@ color: #FFFFF0;
 	font-size: 14px;
 	left: 33%;
 }
-#portfolio.list .col-sm-4 .main-btn-rect {
+#portfolio.list .col-sm-4 .second-btn {
 	top: 170px;
 	left: 85%;
 	font-size: 10px;
