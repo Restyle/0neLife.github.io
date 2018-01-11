@@ -103,6 +103,11 @@ $('.icon-menu li').on('click', function() {
 	  .attr('class','')
 	  .addClass($(this).data('switcher'));
     });
-
-});
 	
+$('#clients-list').mixItUp();
+	$('.filter-list .filter').on('click', function(){
+		$('.filter-list .filter').removeClass('active disable-click');
+		$(this).addClass('active disable-click');
+});
+});
+

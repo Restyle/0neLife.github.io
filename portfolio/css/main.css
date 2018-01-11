@@ -1145,6 +1145,9 @@ color: #FFFFF0;
 #portfolio .icon-menu .main-btn-rect {
 	font-size: 20px;
 }
+#clients-list .mix{
+	display: none;
+}
 #portfolio.grid .portfolio-card {
 	margin-bottom: 20px;
 	height: 290px;
@@ -1227,9 +1230,6 @@ color: #FFFFF0;
 #portfolio .download-more:hover i{
 	bottom: -90%;
 }
-
-/**********************************************************/
-
 #portfolio.list .first-btn {
 	display: none;
 }
