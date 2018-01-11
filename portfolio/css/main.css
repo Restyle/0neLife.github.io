@@ -1299,3 +1299,11 @@ color: #FFFFF0;
 #portfolio .portfolio-list .main-btn-rect:hover i {
 	right: -100%;
 }
+
+#portfolio.grid .col-sm-4{
+	width: 33.3333%
+}
+
+#portfolio.list .col-sm-4{
+	width: 100%
+}
