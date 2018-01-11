@@ -1237,12 +1237,13 @@ color: #FFFFF0;
 	background-color: #273238;
 	margin-bottom: 5px;
 	width: 100%;
-	-webkit-transition: width 0.5s;
-	-o-transition: width 0.5s;
-	transition: width 0.5s;
+
 }
 #portfolio.list .col-sm-4 .portfolio-card{
 	height: 260px;
+	-webkit-transition: height .5s;
+	-moz-transition: height .5s;
+	transition: height .5s;
 }
 #portfolio.list .col-sm-4 img{
 	position: absolute;
