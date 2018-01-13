@@ -94,20 +94,22 @@ $(document).ready(function(){
 	  progressWidth: 3
 	});
 
-$('.icon-menu li').on('click', function() {
-  $('.icon-menu li').removeClass('active disable-click');
-  // var newClass = $(this).addClass('active disable-click').data('switcher');
-  // $(this).parents('section').attr('class','').addClass(newClass);
-  $(this).addClass('active disable-click')
-	  .parents('section')
-	  .attr('class','')
-	  .addClass($(this).data('switcher'));
-    });
+	$('.icon-menu li').on('click', function() {
+	  $('.icon-menu li').removeClass('active disable-click');
+	  // var newClass = $(this).addClass('active disable-click').data('switcher');
+	  // $(this).parents('section').attr('class','').addClass(newClass);
+		  $(this).addClass('active disable-click')
+			  .parents('section')
+			  .attr('class','')
+			  .addClass($(this).data('switcher'));
+  });
 	
-$('#clients-list').mixItUp();
+	
+	$('#clients-list').mixItUp();
 	$('.filter-list .filter').on('click', function(){
 		$('.filter-list .filter').removeClass('active disable-click');
 		$(this).addClass('active disable-click');
-});
+	});
+
 });
 
