@@ -493,7 +493,7 @@ header.blog-inner-menu a{
 	color: #FFFFF0;
 	text-transform: uppercase;
 	letter-spacing: 1px;
-	font-size: 13px;
+	font-size: 12px;
 	line-height: 48px;
 }
 header.blog-inner-menu img {
@@ -512,38 +512,27 @@ header .blog-nav-menu ul {
 }
 header.blog-inner-menu .blog-nav-menu li {
 	display: inline-block;
-	margin-left: 20px;
-	margin-right: 20px;
-	margin-bottom: 0px;
+	margin: 0px 10px 0px 10px;
 }
-.blog-nav-menu li a:before {
+.blog-nav-menu li a:before,
+.blog-nav-menu li a:after{
 	position: absolute;
 	content: '';
-	height: 0px;
+	height: 1px;
 	width: 0px;
-	border-radius: 50%;
-	left: -12px;
 	bottom: 7px;
 	background-color: #FFFFF0;
-	-webkit-transition: all 0.3s;
-	-o-transition: all 0.3s;
-	transition: all 0.3s;
+	-webkit-transition: width 0.3s;
+	-o-transition: width 0.3s;
+	transition: width 0.3s;
+}
+.blog-nav-menu li a:before{
+	left: -12px;
 }
 .blog-nav-menu li a:after {
-	position: absolute;
-	content: '';
-	height: 0px;
-	width: 0px;
-	border-radius: 50%;
 	right: -12px;
-	bottom: 7px;
-	background-color: #FFFFF0;
-	-webkit-transition: all 0.3s;
-	-o-transition: all 0.3s;
-	transition: all 0.3s;
 }
 .blog-nav-menu li a:hover:before, .blog-nav-menu li a:hover:after{
-	height: 1px;
 	width: 10px;
 }
 main .blog-article-soc-wrap .soc-list-wrap {
@@ -743,19 +732,18 @@ margin-top: 0;
 	text-transform: uppercase;
 }
 .title-text-resume h1 {
-	font-size: 28px;
-	font-family: "RobotoLight", sans-serif;
-	text-transform: uppercase;
+	font-size: 25px;
 	font-weight: 100;
 	letter-spacing: 2px;
 }
 .title-text-resume h2 {
 	font-weight: 100;
-	font-size: 13px;
+	font-size: 14px;
 	display: inline-block;
 	position: relative;
 	top: -16px;
 	letter-spacing: 1px;
+	text-transform: none;
 	vertical-align: middle;
 }
 .title-text-resume h2:before, .title-text-resume h2:after{
@@ -764,7 +752,7 @@ margin-top: 0;
 	height: 1px;
 	width: 11px;
 	background-color: #FFFFF0;
-	top: 8px;
+	top: 9px;
 }
 .title-text-resume h2:before {
 	left: -13px;
@@ -776,9 +764,9 @@ margin-top: 0;
 	margin-left: 65px;
 	font-size: 14px;
 	text-transform: uppercase;
-	font-family: 'OpensansBold', sans-serif;
+	font-family: 'OpenSansBold', sans-serif;
 	letter-spacing: 1px;
-	border-bottom: 1px solid #FFFFF0
+	border-bottom: 1px solid #FFFFF0;
 }
 .main-resume-section .skill-block-head h5:before{
 	position: absolute;
@@ -826,6 +814,9 @@ margin-top: 0;
 	color: #273238;
 	background-color: #FFFFF0;
 }
+.main-resume-section .skill-block ul a:hover{
+	text-decoration: underline;
+}
 .main-resume-section .skill-block ul a{
 	color: #FFFFF0;
 }
@@ -836,12 +827,13 @@ margin-top: 0;
 	display: inline-block;
 }
 .main-resume-section .skill-block .my-hobbies li i{
-	height: 50px;
-	width: 50px;
+	margin:0px 10px 0px 10px;
+	height: 40px;
+	width: 40px;
 	border-radius: 50%;
 	background-color: #FFFFF0;
 	color: #273238;
-	font-size: 30px;
+	font-size: 20px;
 	padding: 8px;
 }
 .main-resume-section .second-block .skill-block-head {
