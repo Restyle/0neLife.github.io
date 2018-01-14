@@ -906,6 +906,9 @@ margin-top: 0;
 	padding: 2px;
 	letter-spacing: 1px;
 }
+.second-block h6 a {
+	color: #333;
+}
 
 /*about me Main-page*/
 .perspective {
