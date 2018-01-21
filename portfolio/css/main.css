@@ -1316,3 +1316,173 @@ color: #FFFFF0;
 #portfolio.list .col-sm-4 .second-btn:hover i {
 	right: -105%;
 }
+
+
+
+/***************PAGE-portfolio**********************/
+
+#portfolio-inner-title, #portfolio-inner-main {
+	min-height: 100px;
+}
+#portfolio-inner-title blockquote {
+    margin: 0;
+    padding: 20px 40px 20px 40px;
+    border-left: 5px solid #273238;
+    position: relative;
+}
+#portfolio-inner-title blockquote:before {
+	content: "\201C";
+	color: #273238;
+	font-size: 70px;
+	position: absolute;
+	left: 17px;
+	top: -13px;
+}
+#portfolio-inner-main {
+	background-color: #273238;
+	color: #FFFFF0;
+	border-top: 7px double #FFFFF0;
+	border-bottom: 7px double #FFFFF0;
+	padding: 30px 0px 30px 0px;
+}
+#portfolio-inner-main .portfolio-inner-image{
+	margin: 0px auto;
+	text-align: center;
+	border-right: 1px solid #FFFFF0;
+	min-height: 311px;
+}
+#portfolio-inner-main .portfolio-inner-image img{
+	width:90%;
+	transform: translateY(20%);
+}
+
+#portfolio-inner-main .second-btn {
+	left: 80%;
+	font-size: 10px;
+	border: 1px solid #FFFFF0;
+	padding: 5px 20px 5px 10px;
+}
+#portfolio-inner-main  .second-btn i {
+	position: absolute;
+	right: 2%;
+	top: 50%;
+	transform: translateY(-50%);
+	-webkit-transition: right 0.6s;
+	-o-transition: right 0.6s;
+	transition: right 0.6s;
+}
+#portfolio-inner-main .second-btn:hover i {
+	right: -305%;
+}
+#portfolio-inner-main h6{
+	margin: 20px 0px 10px 0px;
+	font-size: 14px;
+	font-weight: 100;
+	text-transform: uppercase;
+	position: relative;
+}
+#portfolio-inner-main h6:before{
+	position: absolute;
+	content: "\201C";
+	font-size: 40px;
+	left: -15px;
+	top: -15px;
+}
+#portfolio-inner-main .col-md-6 p{
+	margin-left: 20px;
+}
+#portfolio-inner-main .col-md-6 ul{
+	list-style: none;
+}
+#portfolio-inner-main .col-md-6 ul  li {
+	position: relative;
+	display: inline-block;
+	margin: 10px 0px 0px 15px;
+	font-size: 30px;
+}
+#portfolio-inner-main .soc-list-wrap li a i {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	color: #FFFFF0;
+	font-size: 15px;
+	text-align: center;
+}
+#carousel .portfolio-card {
+    margin: 0px 10px 0px 10px;
+    height: 290px;
+    background-color: #273238;
+    padding: 3px 3px 0px 3px;
+    cursor: pointer;
+	-webkit-transition: height .5s;
+	-moz-transition: height .5s;
+	transition: height .5s;
+}
+#carousel .portfolio-card a{
+	overflow: hidden;
+	display: block;
+}
+#carousel .portfolio-card img {
+	width: 100%;
+	height: 210px;
+	-webkit-transition: transform .5s;
+	-moz-transition: transform .5s;
+	-ms-transition: transform .5s;
+	-o-transition: transform .5s;
+	transition: transform .5s;
+}
+#carousel .portfolio-card:hover img{
+	transform: scale(1.1);
+}
+#carousel .portfolio-card .main-btn-rect {
+    width: 100%;
+    height: 74px;
+}
+#carousel .portfolio-card .main-btn-rect span {
+    position: absolute;
+    font-size: 15px;
+    left: 5%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+#carousel .portfolio-card .main-btn-rect i {
+    position: absolute;
+    font-size: 15px;
+    right: 5%;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transition: right 0.6s;
+    -o-transition: right 0.6s;
+    transition: right 0.6s;
+}
+#carousel .portfolio-card:hover .main-btn-rect i {
+	right: -10%;
+}
+#carousel .portfolio-card:hover .main-btn-rect:before, 
+#carousel .portfolio-card:hover .main-btn-rect:after {
+	width: 50%;
+	
+}
+/* <div class="portfolio-inner-up">
+						</div>
+												<div class="portfolio-inner-down">
+						</div>
+.portfolio-inner-up {
+	margin: 0px auto;
+	display: block;
+	width: 50px;
+	height: 50px;
+	border-left: 100px solid transparent;
+	border-right: 100px solid transparent;
+	border-top: 30px solid #FFFFF0;
+}
+.portfolio-inner-down {
+	margin: 0px auto;
+	display: block;
+	width: 50px;
+	height: 50px;
+	border-left: 100px solid transparent;
+	border-right: 100px solid transparent;
+	border-bottom: 30px solid #FFFFF0;
+}
+*/
