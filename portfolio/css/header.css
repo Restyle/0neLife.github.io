@@ -94,6 +94,8 @@ header h1{
 header h2 {
 	top: 60%;    
 	font-size: 23px;
+  padding: 10px 50px;
+  letter-spacing: 8px;
 }
 
 /*Switch button. You can go to the menu (three strips) */
