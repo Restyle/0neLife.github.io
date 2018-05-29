@@ -1,0 +1,135 @@
+@media only screen and (max-width: 1200px) {
+	#speakers .wrap-title h4{font-size: 12px;}
+	#speakers .wrap-title h5{font-size: 10px;}
+	#speakers .speaker-wrap-hover ul {padding: 10px 5px 5px 5px;font-size: 10px;}
+}
+@media only screen and (max-width: 992px) {
+	header h1 {font-size: 20px;}
+  header h2 {font-size: 15px;}
+  .fixed-md-menu a {font-size: 10px;}
+  #speakers {padding: 30px 0px;}
+  #shedule .tabs-wrap h5{font-size: 20px;}
+ 	#reviews .col-sm-6 {min-height: 320px;}
+	#reviews h4 {font-size: 14px; top: 220px;}
+	#reviews h5 {font-size: 10px; top: 280px;}
+	#reviews p {left: 0%;font-size: 12px;}
+}
+@media only screen and (max-width: 768px){
+	body{font-size:12px;}
+	header h1 {font-size: 18px;}
+  header h2 {font-size: 12px;padding: 10px 0px 10px 0px;}
+  .burger-btn {position: fixed;}
+  .burger-menu li a{font-size:14px;}
+  .flip-clock-divider .flip-clock-label{ top: 85px; right: -75px; font-size: 12px;}
+	.flip-clock-divider.minutes .flip-clock-label {right: -85px;}
+	.flip-clock-dot {width: 8px;height: 8px;}
+	.flip-clock-dot.top {top: 25px;}
+	.flip-clock-dot.bottom {bottom: 45px;}
+	.flip-clock-wrapper ul {margin: 3px; width: 50px; height: 70px;}
+	.flip-clock-wrapper ul li {line-height: 72px;}
+	.flip-clock-wrapper ul li a div div.inn {font-size: 55px;}
+	.flip-clock-wrapper ul li a div.up:after {top: 34px;height: 1px;}
+	.main-btn-rect {font-size: 14px; padding: 5px 20px;}
+	.info-wrap ul {-webkit-transform: translate(-155px, 0); -moz-transform: translate(-155px, 0); -ms-transform: translate(-155px, 0); -o-transform: translate(-155px, 0); transform: translate(-155px, 0);}
+	.info-wrap ul li {margin: 3px; width: 180px; padding: 5px;}
+	.info-wrap ul li span {font-size: 12px;}
+	.info-wrap ul li i {font-size: 15px;}
+	.animation-arrow {height: 40px;width: 40px;}
+	.animation-arrow .arrow-anim:after, 
+	.animation-arrow .arrow-anim:before{width:20px;}
+	.popup .page-wrap{height: 35px;}
+	.popup .page-wrap img {height: 18px; top: 8px;}
+	.popup .event-header h3 {font-size: 14px;}
+	.popup .event-header p {font-size: 10px;}
+	.popup .meeting-reg input{height: 30px; margin-bottom: 10px;font-size: 12px;}
+	.fixed-menu{display: none;}
+	#shedule .group-menu{max-width: 350px; margin-bottom: 10px;}
+	#shedule .group-menu:before{left: 0}
+	#shedule .group-menu li {display: inline-block; margin:0;	padding: 15px;}
+	#shedule .disable-click:before, #shedule .disable-click:after{width:10px;}
+	#shedule .disable-click:before{left:0;}
+	#shedule .disable-click:after{right:0;}
+	#shedule .group-menu li:hover{color: rgb(252, 79, 79); font-weight:600;}
+	.title-wrap h3{font-size: 18px;}
+	#shedule .tabs-wrap {padding: 30px 10px 30px 20px;}
+	#shedule .tabs-wrap.dot-line:before{top: 60px;}
+	#shedule .tabs-wrap.dot-line:after{top: 56px;}
+	#shedule .tabs-wrap h5 {font-size: 14px;}
+	#shedule .tabs-wrap a {top: 100px; left: 70px;}
+	#wrap-reg h4 {font-size: 16px;}
+	#reg-fast .meeting-reg input{font-size: 12px; height: 40px;}
+	.owl-wrapper{max-height: 650px;}
+	.owl-carousel .owl-wrapper-outer {max-height: 650px;}
+	#reviews p{top:35%;}
+	.owl-theme .owl-controls .owl-buttons div {font-size: 40px!important; top:18%!important;}
+	.owl-theme .owl-controls .owl-page span{margin: 5px 5px;}
+	.owl-theme .owl-controls .owl-buttons div.owl-next {right: 5px!important;}
+	.owl-theme .owl-controls .owl-buttons div.owl-prev {left: 5px!important;}
+	#info-sponsors	{min-height: 450px;}
+	#info-sponsors	li{width: 110px;	height: 70px;}
+	#info-sponsors	li a{line-height: 60px;}
+	#info-sponsors	li img{max-height: 55px;}
+	.footer-wrap{height: 100px;}
+	.art-footer{height: 55px;}
+	.footer-wrap .copy a{font-size: 10px;}
+	.footer-wrap .copy span {margin-left: 5px;}
+	.footer-wrap .copy span:before{width: 0px;}
+	.footer-wrap .soc-wrap li {margin: 0px 5px;}
+	.footer-wrap .dev {right:50%; margin-right: -40px;}
+}
+@media only screen and (max-width: 468px){
+	header h1 {font-size: 12px;}
+	.flip-clock-divider .flip-clock-label{ top: 60px; right: -55px; font-size: 10px;}
+	.flip-clock-divider {height:58px;}
+	.flip-clock-divider.minutes .flip-clock-label {right: -62px;}
+	.flip-clock-dot {width: 5px;height: 5px;}
+	.flip-clock-dot.top {top: 20px;}
+	.flip-clock-dot.bottom {bottom: 20px;}
+	.flip-clock-wrapper ul {margin: 3px; width: 35px; height: 50px;}
+	.flip-clock-wrapper ul li {line-height: 52px;}
+	.flip-clock-wrapper ul li a div div.inn {font-size: 35px;}
+	.flip-clock-wrapper ul li a div.up:after {top: 24px;}
+	.main-btn-rect {font-size: 12px; padding: 5px 15px;}
+	header .main-btn-rect{top:65%;}
+	.burger-menu li a {font-size: 11px;padding:10px 20px;letter-spacing: 2px;}
+	.popup .popup-content h6 {font-size: 14px;}
+	.popup .popup-content p {display: none;}
+	.popup .meeting-reg .col-sm-6:nth-child(8) {display: none;}
+	.popup .popup-content h6 {font-size: 14px;}
+	.popup .popup-content p {display: none;}
+	.popup .meeting-reg .col-sm-6:nth-child(8) {display: none;}
+	#about ul li p{font-size: 12px; margin: 10px auto;}
+	#about .img-wrap img {max-height: 250px; max-width: 250px;}
+	#shedule .tabs-wrap {padding: 20px 10px 30px 20px;}
+	#shedule .tabs-wrap a{top: 70%;}
+	#reg-fast .meeting-reg input{width: 90%;}
+	#reviews h4 {font-size: 12px; top: 220px;}
+	#reviews p{line-height: 25px; top:43%;}
+	#info-sponsors .col-md-12{padding-bottom: 0;}
+	#info-sponsors .first-img, #info-sponsors .second-img{height: 90px;}
+	#info-sponsors a{line-height: 80px;}
+	footer li{margin-left: 0px!important;}
+}
+@media screen and (min-device-width: 320px) and (max-device-width: 768px) and (orientation: landscape) {
+	header .main-logo {top: 6px;}
+	header .main-logo img {width: 35%;}
+	header h1 {font-size: 10px;}
+	header h2 {font-size: 8px;}
+	.countdown-wrapper {top: 130px;}
+	.flip-clock-divider {height:33px; width: 12px;}
+	.flip-clock-divider .flip-clock-label{ top: 35px; right: -32px; font-size: 8px;}
+	.flip-clock-divider.minutes .flip-clock-label {right: -40px;}
+	.flip-clock-dot {width: 3px;height: 3px;}
+	.flip-clock-dot.top {top: 22px;}
+	.flip-clock-dot.bottom {bottom: 22px;}
+	.flip-clock-wrapper ul {margin: 1px; width: 20px; height: 30px;}
+	.flip-clock-wrapper ul li {line-height: 28px;}
+	.flip-clock-wrapper ul li a div div.inn {font-size: 22px;}
+	.flip-clock-wrapper ul li a div.up:after {top: 13px;}
+	header .info-wrap {top: 50%;}
+	header .main-btn-rect{top: 190px; font-size: 10px; padding: 2px 10px;}
+	header .burger-menu li{line-height: 3.8;}
+	.popup .popup-content h6 {font-size: 14px;}
+	.popup .popup-content p {display: none;}
+	.popup .meeting-reg .col-sm-6:nth-child(8) {display: none;}
+}
